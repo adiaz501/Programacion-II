@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d99597c3-1158-4d0d-8de3-6d8a94c6468c" name="Changes" comment="Añadir ejercicio EcuacioLinal">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_8_2025_19_13_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_8_2025_19_13__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_8_2025_20_14_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_8_2025_20_14__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Participación 4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Participación 4/P4_java/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Participación 4/P4_java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Participación 4/P4_java/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Participación 4/P4_java/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Participación 4/P4_java/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 2/AlgebraVectorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 2/algebravectorial/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 2/algebravectorial/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 2/algebravectorial/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 2/algebravectorial/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 2/algebravectorial/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 2/algebravectorial/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 2/algebravectorial/src/algebravectorial/AlgebraVectorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 2/algebravectorial/src/algebravectorial/test_AlgebraVectorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/EJ1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/src/EJ2/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/src/EJ2/Coloreado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/src/EJ2/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/src/EJ2/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/src/EJ2/TestFigura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica 4/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica3/Abstracta.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;adiaz501&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/adiaz501/Programacion-II.git&quot;,
+    &quot;accountId&quot;: &quot;f9b50e5a-90ad-42c9-b65b-6daa4af51fb1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="31rAORfloRWwAEZ0DCykZRoWiH8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.Abstracta.executor": "Run",
+    "Python.AlgebraVectorial.executor": "Run",
+    "Python.Circulo2D.executor": "Run",
+    "Python.EJ1.executor": "Run",
+    "Python.EcuacionCuadratica.executor": "Run",
+    "Python.EcuacionLineal.executor": "Run",
+    "Python.Estadistica.executor": "Run",
+    "Python.Juego.executor": "Run",
+    "Python.Juego2.executor": "Run",
+    "Python.Vector3D.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/MI LAPTOP/Practica-INF-121",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.EJ1">
+    <configuration name="Abstracta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programacion-II" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practica3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practica3/Abstracta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EJ1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programacion-II" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practica 4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practica 4/EJ1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Juego" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programacion-II" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practica3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practica3/Juego.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Juego2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programacion-II" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practica3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practica3/Juego2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Vector3D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programacion-II" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practica 2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practica 2/Vector3D.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.EJ1" />
+        <item itemvalue="Python.Abstracta" />
+        <item itemvalue="Python.Juego2" />
+        <item itemvalue="Python.Juego" />
+        <item itemvalue="Python.Vector3D" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
+        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d99597c3-1158-4d0d-8de3-6d8a94c6468c" name="Changes" comment="" />
+      <created>1756271785646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756271785646</updated>
+      <workItem from="1756271787753" duration="1500000" />
+      <workItem from="1756275295619" duration="3511000" />
+      <workItem from="1756278895717" duration="3485000" />
+      <workItem from="1756282578914" duration="1159000" />
+      <workItem from="1757284766804" duration="317000" />
+      <workItem from="1757289584187" duration="2862000" />
+      <workItem from="1757294560445" duration="72000" />
+      <workItem from="1757815925138" duration="5381000" />
+      <workItem from="1757847200306" duration="2430000" />
+      <workItem from="1757905340428" duration="4928000" />
+      <workItem from="1757927830835" duration="333000" />
+      <workItem from="1758521495980" duration="1960000" />
+      <workItem from="1758524258317" duration="1792000" />
+      <workItem from="1758531334472" duration="2618000" />
+      <workItem from="1759104002822" duration="7727000" />
+      <workItem from="1759298591715" duration="77000" />
+    </task>
+    <task id="LOCAL-00001" summary="Añadir ejercicio EcuacioLinal">
+      <option name="closed" value="true" />
+      <created>1756276036225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756276036225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Añadir ejercicio EcuacioLinal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadir ejercicio EcuacioLinal" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Programacion_II$Juego2.coverage" NAME="Juego2 Coverage Results" MODIFIED="1758525459963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practica3" />
+    <SUITE FILE_PATH="coverage/Programacion_II$Abstracta.coverage" NAME="Abstracta Coverage Results" MODIFIED="1759108494723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practica3" />
+    <SUITE FILE_PATH="coverage/Programacion_II$EcuacionCuadratica.coverage" NAME="EcuacionCuadratica Coverage Results" MODIFIED="1756283597580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practica 1" />
+    <SUITE FILE_PATH="coverage/Programacion_II$Vector3D.coverage" NAME="Vector3D Coverage Results" MODIFIED="1757910809766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practica 2" />
+    <SUITE FILE_PATH="coverage/Programacion_II$Juego.coverage" NAME="Juego Coverage Results" MODIFIED="1758524969877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practica3" />
+    <SUITE FILE_PATH="coverage/Programacion_II$Estadistica.coverage" NAME="Estadistica Coverage Results" MODIFIED="1756283848065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practica 1" />
+    <SUITE FILE_PATH="coverage/Programacion_II$EcuacionLineal.coverage" NAME="EcuacionLineal Coverage Results" MODIFIED="1756282782188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practica 1" />
+    <SUITE FILE_PATH="coverage/Programacion_II$EJ1.coverage" NAME="EJ1 Coverage Results" MODIFIED="1759116143740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practica 4" />
+    <SUITE FILE_PATH="coverage/Programacion_II$Circulo2D.coverage" NAME="Circulo2D Coverage Results" MODIFIED="1757292501363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Participación 4" />
+    <SUITE FILE_PATH="coverage/Programacion_II$AlgebraVectorial.coverage" NAME="AlgebraVectorial Coverage Results" MODIFIED="1757852842708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practica 2" />
+  </component>
+</project>

@@ -1,0 +1,132 @@
+Index: Practica 1/EcuacionLineal.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>class EcuacionLineal:\r\n    def __init__(self, a, b, c, d, e, f):\r\n        self._a = a\r\n        self._b = b\r\n        self._c = c\r\n        self._d = d\r\n        self._e = e\r\n        self._f = f\r\n\r\n    def tieneSolucion(self):\r\n        return (self._a * self._d - self._b * self._c) != 0\r\n\r\n    def getX(self):\r\n        return (self._e * self._d - self._b * self._f) / (self._a * self._d - self._b * self._c)\r\n\r\n    def getY(self):\r\n        return (self._a * self._f - self._e * self._c) / (self._a * self._d - self._b * self._c)\r\n\r\nprint(\"Ingrese a, b, c, d, e, f:\")\r\nvalores = list(map(float, input().split()))\r\na, b, c, d, e, f = valores[0], valores[1], valores[2], valores[3], valores[4], valores[5]\r\n\r\necuacion = EcuacionLineal(a, b, c, d, e, f)\r\n\r\nif ecuacion.tieneSolucion():\r\n    print(\"x =\", ecuacion.getX(), \", y =\", ecuacion.getY())\r\nelse:\r\n    print(\"La ecuación no tiene solución\")
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Practica 1/EcuacionLineal.py b/Practica 1/EcuacionLineal.py
+--- a/Practica 1/EcuacionLineal.py	(revision 2d0a3232cbe8a48451ea6a30cba87813c8fa0631)
++++ b/Practica 1/EcuacionLineal.py	(date 1756278596192)
+@@ -1,20 +1,20 @@
+ class EcuacionLineal:
+     def __init__(self, a, b, c, d, e, f):
+-        self._a = a
+-        self._b = b
+-        self._c = c
+-        self._d = d
+-        self._e = e
+-        self._f = f
++        self.__a = a
++        self.__b = b
++        self.__c = c
++        self.__d = d
++        self.__e = e
++        self.__f = f
+ 
+     def tieneSolucion(self):
+-        return (self._a * self._d - self._b * self._c) != 0
++        return (self.__a * self.__d - self.__b * self.__c) != 0
+ 
+     def getX(self):
+-        return (self._e * self._d - self._b * self._f) / (self._a * self._d - self._b * self._c)
++        return (self.__e * self.__d - self.__b * self.__f) / (self.__a * self.__d - self.__b * self.__c)
+ 
+     def getY(self):
+-        return (self._a * self._f - self._e * self._c) / (self._a * self._d - self._b * self._c)
++        return (self.__a * self.__f - self.__e * self.__c) / (self.__a * self.__d - self.__b * self.__c)
+ 
+ print("Ingrese a, b, c, d, e, f:")
+ valores = list(map(float, input().split()))
+Index: Practica 1/EcuacionCuadratica.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Practica 1/EcuacionCuadratica.py b/Practica 1/EcuacionCuadratica.py
+new file mode 100644
+--- /dev/null	(date 1756278477642)
++++ b/Practica 1/EcuacionCuadratica.py	(date 1756278477642)
+@@ -0,0 +1,38 @@
++import math
++
++class EcuacionCuadratica:
++    def __init__(self, a, b, c):
++        self.__a = a
++        self.__b = b
++        self.__c = c
++
++    def getDiscriminante(self):
++        return self.__b * self.__b - 4 * self.__a * self.__c
++
++    def getRaiz1(self):
++        discriminante = self.getDiscriminante()
++        if discriminante >= 0:
++            return (-self.__b + math.sqrt(discriminante)) / (2 * self.__a)
++        else:
++            return 0
++
++    def getRaiz2(self):
++        discriminante = self.getDiscriminante()
++        if discriminante >= 0:
++            return (-self.__b - math.sqrt(discriminante)) / (2 * self.__a)
++        else:
++            return 0
++
++print("Ingrese a, b, c:")
++valores = list(map(float, input().split()))
++a, b, c = valores[0], valores[1], valores[2]
++
++ecuacion = EcuacionCuadratica(a, b, c)
++discriminante = ecuacion.getDiscriminante()
++
++if discriminante > 0:
++    print("La ecuación tiene dos raíces", ecuacion.getRaiz1(), "y", ecuacion.getRaiz2())
++elif discriminante == 0:
++    print("La ecuación tiene una raíz", ecuacion.getRaiz1())
++else:
++    print("La ecuación no tiene raíces reales")
+\ No newline at end of file
+Index: Practica 1/Estadistica.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Practica 1/Estadistica.py b/Practica 1/Estadistica.py
+new file mode 100644
+--- /dev/null	(date 1756278360277)
++++ b/Practica 1/Estadistica.py	(date 1756278360277)
+@@ -0,0 +1,32 @@
++import math
++
++class Estadistica:
++    def __init__(self, n):
++        self.__n = n
++
++    def promedio(self):
++        suma = 0
++        for numero in self.__n:
++            suma += numero
++        return suma / len(self.__n)
++
++    def desviacion(self):
++        n = len(self.__n)
++        if n <= 1:
++            return 0
++
++        prom = self.promedio()
++        suma_cuadrados = 0
++        for numero in self.__n:
++            suma_cuadrados += (numero - prom) ** 2
++
++        return math.sqrt(suma_cuadrados / (n - 1))
++
++
++print("Ingrese 10 números separados por espacios:")
++n = list(map(float, input().split()))
++
++estadistica = Estadistica(n)
++
++print("El promedio es", estadistica.promedio())
++print("La desviación estándar es", estadistica.desviacion())
+\ No newline at end of file
