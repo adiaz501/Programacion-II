@@ -1,0 +1,12 @@
+{
+  "nombre": "Biblioteca UMSA",
+  "libros": [],
+  "autores": [],
+  "estudiantes": [],
+  "prestamos": [],
+  "horario": {
+    "dias": "Lunes-Viernes",
+    "horaApertura": "08:00",
+    "horaCierre": "18:00"
+  }
+}
